@@ -1,48 +1,48 @@
 <p align="center">
-  <img src="https://github.com/muhammad-fiaz/portfolio/assets/75434191/4b7d5fe2-16c7-4451-802d-851638b2df9f"  alt="Muhammad Fiaz's Portfolio"/>
+  <img src="https://github.com/pal-sandeep/portfolio/assets/75434191/4b7d5fe2-16c7-4451-802d-851638b2df9f"  alt="Sandeep Pal's Portfolio"/>
 </p>
 
 <div align="center">
   <h1><a href="https://muhammadfiaz.com/">muhammadfiaz.com</a> | portfolio</h1>
 
 ![Stability](https://img.shields.io/badge/stability-beta-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/muhammad-fiaz/portfolio)
-[![Build Passing](https://badge.buildkite.com/sample.svg?status=passing)](https://github.com/muhammad-fiaz/portfolio)
-[![Continuous Integration](https://github.com/muhammad-fiaz/portfolio/actions/workflows/prettier.yml/badge.svg)](https://github.com/muhammad-fiaz/portfolio/actions/workflows/prettier.yml)
-[![CodeQL](https://github.com/muhammad-fiaz/portfolio/actions/workflows/codeql.yml/badge.svg)](https://github.com/muhammad-fiaz/portfolio/actions/workflows/codeql.yml)
-[![CodeSee](https://github.com/muhammad-fiaz/portfolio/actions/workflows/codesee-arch-diagram.yml/badge.svg)](https://github.com/muhammad-fiaz/portfolio/actions/workflows/codesee-arch-diagram.yml)
-[![Dependency Review](https://github.com/muhammad-fiaz/portfolio/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/muhammad-fiaz/portfolio/actions/workflows/dependency-review.yml)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pal-sandeep/portfolio)
+[![Build Passing](https://badge.buildkite.com/sample.svg?status=passing)](https://github.com/pal-sandeep/portfolio)
+[![Continuous Integration](https://github.com/pal-sandeep/portfolio/actions/workflows/prettier.yml/badge.svg)](https://github.com/pal-sandeep/portfolio/actions/workflows/prettier.yml)
+[![CodeQL](https://github.com/pal-sandeep/portfolio/actions/workflows/codeql.yml/badge.svg)](https://github.com/pal-sandeep/portfolio/actions/workflows/codeql.yml)
+[![CodeSee](https://github.com/pal-sandeep/portfolio/actions/workflows/codesee-arch-diagram.yml/badge.svg)](https://github.com/pal-sandeep/portfolio/actions/workflows/codesee-arch-diagram.yml)
+[![Dependency Review](https://github.com/pal-sandeep/portfolio/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/pal-sandeep/portfolio/actions/workflows/dependency-review.yml)
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
-This project is built with Next.js and React, showcasing [Muhammad Fiaz](https://github.com/muhammad-fiaz/)'s personal website.
+This project is built with Next.js and React, showcasing [Sandeep Pal](https://github.com/pal-sandeep/)'s personal website.
 
 **Note: This project is currently under Active development. so the Documentation for this project will be available soon**
 
 **This Project Also Supports [Vercel](https://vercel.com/dashboard) and comes with [(Vercel Analytics pre-enabled in it)](https://vercel.com/analytics) you can Host it there if you like it**
 
-🧑‍💻 Check out the dev branch for new development changes and the Latest Patch updates:—[https://github.com/muhammad-fiaz/portfolio/tree/dev](https://github.com/muhammad-fiaz/portfolio/tree/dev)
+🧑‍💻 Check out the dev branch for new development changes and the Latest Patch updates:—[https://github.com/pal-sandeep/portfolio/tree/dev](https://github.com/pal-sandeep/portfolio/tree/dev)
 
 
 ✅ Also Check out the latest release version for production use:-
-[https://github.com/muhammad-fiaz/portfolio](https://github.com/muhammad-fiaz/portfolio)
+[https://github.com/pal-sandeep/portfolio](https://github.com/pal-sandeep/portfolio)
 
 ### Release Notes
 
-For a detailed list of releases and changes, please visit the [GitHub Releases page](https://github.com/muhammad-fiaz/portfolio/releases).
+For a detailed list of releases and changes, please visit the [GitHub Releases page](https://github.com/pal-sandeep/portfolio/releases).
 
 You can also refer to the [CHANGELOG.md](./CHANGELOG.md) file for comprehensive information about each release.
 
-if you have any suggestions or feedback, feel free to open an [issue](https://github.com/muhammad-fiaz/portfolio/issues) or a [pull request](https://github.com/muhammad-fiaz/portfolio/pulls).
+if you have any suggestions or feedback, feel free to open an [issue](https://github.com/pal-sandeep/portfolio/issues) or a [pull request](https://github.com/pal-sandeep/portfolio/pulls).
 
 ## Getting Started
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/muhammad-fiaz/portfolio.git`
+1. Clone the repository: `git clone https://github.com/pal-sandeep/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
@@ -105,12 +105,12 @@ Enjoying my work? Consider supporting me by buying me a cup of coffee or becomin
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/muhammadfiaz)
 [![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/muhammad_fiaz)
 <a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a>
-[![Sponsor muhammad-fiaz](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/muhammad-fiaz)
+[![Sponsor pal-sandeep](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/pal-sandeep)
 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/muhammad-fiaz/portfolio/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/pal-sandeep/portfolio/blob/main/LICENSE.md) file for details.
 
 ## Contributing
 
@@ -128,17 +128,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
                                                                                                      
                                                                                                      
-Thank you for checking out [my portfolio on GitHub](https://github.com/muhammad-fiaz/portfolio)! We're constantly working to improve and enhance the project. To ensure you're always up-to-date with the latest changes, we recommend following these steps:
+Thank you for checking out [my portfolio on GitHub](https://github.com/pal-sandeep/portfolio)! We're constantly working to improve and enhance the project. To ensure you're always up-to-date with the latest changes, we recommend following these steps:
 
 1. **Watch This Repository:** Click the ⭐️ "Watch" button at the top right of the page to [receive notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/watching-and-unwatching-repositories) for any new releases, issues, or discussions.
 
-2. **Star the Repository:** If you find my portfolio useful or interesting, consider giving it a [star](https://github.com/muhammad-fiaz/portfolio/stargazers). This helps us gain visibility and shows your appreciation for the project.
+2. **Star the Repository:** If you find my portfolio useful or interesting, consider giving it a [star](https://github.com/pal-sandeep/portfolio/stargazers). This helps us gain visibility and shows your appreciation for the project.
 
-3. **Fork for Contributions:** If you're interested in contributing to my portfolio, feel free to [fork](https://github.com/muhammad-fiaz/portfolio/fork) the repository, make changes, and submit a pull request. We welcome contributions from the community!
+3. **Fork for Contributions:** If you're interested in contributing to my portfolio, feel free to [fork](https://github.com/pal-sandeep/portfolio/fork) the repository, make changes, and submit a pull request. We welcome contributions from the community!
 
-4. **Join the Discussion:** Check out the [Discussions](https://github.com/muhammad-fiaz/portfolio/discussions) tab to join conversations, ask questions, and share your ideas with other users and contributors.
+4. **Join the Discussion:** Check out the [Discussions](https://github.com/pal-sandeep/portfolio/discussions) tab to join conversations, ask questions, and share your ideas with other users and contributors.
 
-5. **Stay Updated:** Periodically visit the repository's ["Releases" section](https://github.com/muhammad-fiaz/portfolio/releases) to find detailed information about each new release, including new features, bug fixes, and improvements.
+5. **Stay Updated:** Periodically visit the repository's ["Releases" section](https://github.com/pal-sandeep/portfolio/releases) to find detailed information about each new release, including new features, bug fixes, and improvements.
 
 By following these steps, you'll be sure to stay connected with the latest developments and updates. I appreciate your interest in my portfolio and can't wait to see how it benefits you!
 

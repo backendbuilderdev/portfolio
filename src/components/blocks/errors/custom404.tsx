@@ -47,7 +47,7 @@ function Custom404() {
                 </p>
                 <p style={{ fontSize: '14px' }}>
                     If you think this issues or bugs, please report them{' '}
-                    <a href="https://github.com/muhammad-fiaz/portfolio/issues/new">@muhammad-fiaz</a>
+                    <a href="https://github.com/pal-sandeep/portfolio/issues/new">@pal-sandeep</a>
                 </p>
                 <button className="go-back-button404" onClick={handleGoBack}>
                     Go Back to Homepage

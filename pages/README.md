@@ -11,7 +11,7 @@ The pages within this folder define the content and functionality of your portfo
 
 Feel free to customize, extend, or create new pages to tailor your portfolio to your specific needs. You can also integrate components and assets from other folders within your project to build rich and engaging web pages.
 
-Make Sure to [Fork](https://github.com/muhammad-fiaz/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/muhammad-fiaz/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/pal-sandeep/portfolio/stargazers).
 
 ## Support Me
 
@@ -20,7 +20,7 @@ If you find this project helpful and enjoy my work, consider supporting me:
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/muhammadfiaz)
 [![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/muhammad_fiaz)
 <a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a>
-[![Sponsor muhammad-fiaz](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/muhammad-fiaz)
+[![Sponsor pal-sandeep](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/pal-sandeep)
 
 ## License
 

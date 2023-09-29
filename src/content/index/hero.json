@@ -11,7 +11,7 @@
 	},
 
 	"header": {
-		"name": "Muhammad Fiaz.",
+		"name": "Sandeep Pal.",
 		"usp": "Passionate Full Stack Developer."
 	},
 
@@ -20,12 +20,12 @@
 	"buttons": {
 		"primary": {
 			"title": "Hire Me",
-			"url": "mailto:s.muhammadfiaz2003@gmail.com",
+			"url": "mailto:skumar8work@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/8sandeeppal/",
 			"leaveSite": "true"
 		}
 	}
