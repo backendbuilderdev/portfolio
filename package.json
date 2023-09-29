@@ -102,7 +102,7 @@
 	"name": "portfolio",
 	"version": "1.0.4",
 	"main": "pages/index.tsx",
-	"repository": "https://github.com/muhammad-fiaz/portfolio.git",
-	"author": "muhammad-fiaz <s.muhammadfiaz2003@gmail.com>",
+	"repository": "https://github.com/pal-sandeep/portfolio.git",
+	"author": "pal-sandeep <skumar8work@gmail.com>",
 	"license": "MIT"
 }

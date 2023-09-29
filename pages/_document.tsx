@@ -9,20 +9,20 @@ export default function Document() {
 			
 <Head>
 {/*
-				Author: Muhammad Fiaz
-                 GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
+				Author: Sandeep Pal
+                 GitHub: Visit the GitHub repository at https://github.com/pal-sandeep/portfolio/ for more details.
                  license: MIT License
                   */}
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>Muhammad Fiaz</title>
-       <meta name="description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+    <title>Sandeep Pal</title>
+       <meta name="description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Muhammad Fiaz" />
+    <meta name="apple-mobile-web-app-title" content="Sandeep Pal" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
@@ -40,7 +40,7 @@ export default function Document() {
 
             <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
 
-            <meta name="author" content="Muhammad Fiaz" />
+            <meta name="author" content="Sandeep Pal" />
 
             <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
 
@@ -65,25 +65,25 @@ export default function Document() {
 
 
 
-            <meta property="og:title" content="Muhammad Fiaz" key="title" />
-            <meta property="og:description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta property="og:title" content="Sandeep Pal" key="title" />
+            <meta property="og:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
             <meta property="og:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
             <meta property="og:image:secure_url" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
             <meta property="og:image:type" content="image/jpeg" />
-            <meta property="og:image:alt" content="Muhammad Fiaz" />
+            <meta property="og:image:alt" content="Sandeep Pal" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
             <meta property="og:url" content="https://muhammadfiaz.com" />
             <meta property="og:type" content="website" />
-            <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
-            <meta property="og:site_name" content="Muhammad Fiaz" />
+            <meta property="og:profile" content="https://github.com/pal-sandeep" />
+            <meta property="og:site_name" content="Sandeep Pal" />
              <meta property="og:locale" content="en_US" />
 
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:title" content="Muhammad Fiaz" />
-            <meta name="twitter:description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
+            <meta name="twitter:title" content="Sandeep Pal" />
+            <meta name="twitter:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
             <meta name="twitter:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
             <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
             <meta name="twitter:domain" content="https://muhammadfiaz.com" />
@@ -99,28 +99,28 @@ export default function Document() {
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
             <meta name="keywords" content="
-    Muhammad Fiaz, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
+    Sandeep Pal, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Muhammad Fiaz Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Muhammad Fiaz Projects, Software Engineer Portfolio,
+    Full Stack Web Developer, Sandeep Pal Portfolio, Coding Projects, Tech Portfolio,
+    Web Development, DevOps Professional, Sandeep Pal Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Muhammad Fiaz Web Developer,
+    Full Stack Engineer Portfolio, Sandeep Pal Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Muhammad Fiaz DevOps, IT Portfolio, Web Developer Portfolio, Muhammad Fiaz Developer,
-    Full Stack Engineer Muhammad Fiaz, Muhammad Fiaz Coding, Muhammad Fiaz IT,
-    Muhammad Fiaz Full Stack Developer, Muhammad Fiaz Software Engineer, Muhammad Fiaz DevOps Engineer,
-    Muhammad Fiaz Programming, Muhammad Fiaz Software Development, Muhammad Fiaz Coding Projects,
-    Muhammad Fiaz Tech Portfolio, Muhammad Fiaz IT Portfolio, Muhammad Fiaz Software Engineer Portfolio,
-    Muhammad Fiaz Web Developer Portfolio, Muhammad Fiaz DevOps Portfolio, Muhammad Fiaz Full Stack Engineer,
-    Muhammad Fiaz Full Stack Developer Portfolio, Muhammad Fiaz Coding Portfolio, Muhammad Fiaz Programming Portfolio,
-    Muhammad Fiaz Software Development Portfolio, Muhammad Fiaz Technology Projects,
-    Muhammad Fiaz Computer Science, Muhammad Fiaz Cloud Computing, Muhammad Fiaz IT Professional,
-    Muhammad Fiaz Technology Enthusiast, Muhammad Fiaz Computer Programmer, Muhammad Fiaz Code Portfolio,
-    Muhammad Fiaz Technology Student, Muhammad Fiaz Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
+    Sandeep Pal DevOps, IT Portfolio, Web Developer Portfolio, Sandeep Pal Developer,
+    Full Stack Engineer Sandeep Pal, Sandeep Pal Coding, Sandeep Pal IT,
+    Sandeep Pal Full Stack Developer, Sandeep Pal Software Engineer, Sandeep Pal DevOps Engineer,
+    Sandeep Pal Programming, Sandeep Pal Software Development, Sandeep Pal Coding Projects,
+    Sandeep Pal Tech Portfolio, Sandeep Pal IT Portfolio, Sandeep Pal Software Engineer Portfolio,
+    Sandeep Pal Web Developer Portfolio, Sandeep Pal DevOps Portfolio, Sandeep Pal Full Stack Engineer,
+    Sandeep Pal Full Stack Developer Portfolio, Sandeep Pal Coding Portfolio, Sandeep Pal Programming Portfolio,
+    Sandeep Pal Software Development Portfolio, Sandeep Pal Technology Projects,
+    Sandeep Pal Computer Science, Sandeep Pal Cloud Computing, Sandeep Pal IT Professional,
+    Sandeep Pal Technology Enthusiast, Sandeep Pal Computer Programmer, Sandeep Pal Code Portfolio,
+    Sandeep Pal Technology Student, Sandeep Pal Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
     fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
     fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
     fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
@@ -140,12 +140,12 @@ export default function Document() {
                     __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Muhammad Fiaz",
+          "name": "Sandeep Pal",
           "url": "https://muhammadfiaz.com",
           "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
+            "https://github.com/pal-sandeep",
+            "https://www.linkedin.com/in/8sandeeppal",
+            "https://medium.com/@pal-sandeep",
             "https://twitter.com/muhammadfiaz_",
             "https://dev.to/muhammadfiaz"
           ]
@@ -179,26 +179,26 @@ export default function Document() {
               },
               {
                 "@type": "Question",
-                "name": "Who is Muhammad Fiaz?",
+                "name": "Who is Sandeep Pal?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Muhammad Fiaz strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Muhammad Fiaz is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
+                  "text": "Sandeep Pal is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Sandeep Pal strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Sandeep Pal is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where is Muhammad Fiaz from?",
+                "name": "Where is Sandeep Pal from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz is from Madurai, Tamil Nadu, India."
+                  "text": "Sandeep Pal is from Madurai, Tamil Nadu, India."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What does Muhammad Fiaz do?",
+                "name": "What does Sandeep Pal do?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Muhammad Fiaz leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
+                  "text": "Sandeep Pal leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
                 }
               }
             ]
@@ -251,10 +251,10 @@ export default function Document() {
             "name": "NeuroLink",
             "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
             "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-fiaz/neurolink",
+            "url": "https://github.com/pal-sandeep/neurolink",
             "logo": "https://private-user-images.githubusercontent.com/75434191/242214243-82fbf702-43e2-46e6-8e01-11758fa26310.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQ4NTE2ODksIm5iZiI6MTY5NDg1MTM4OSwicGF0aCI6Ii83NTQzNDE5MS8yNDIyMTQyNDMtODJmYmY3MDItNDNlMi00NmU2LThlMDEtMTE3NThmYTI2MzEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTE2VDA4MDMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3NjJmNzA5MGU5NWY4NTUxZTcxYmVmNzNlZTYzOTViN2FjNzE1YTM2MjM1OTNlOGIxNzk0ODE1NDczMDMzNGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ay5bRLRoojQ33ZJLFnvjyq6Dq4qZfDY7quvv4WmgRLI",
              "sameAs": [
-            "https://www.linkedin.com/in/muhammad-fiaz-/"
+            "https://www.linkedin.com/in/8sandeeppal/"
         ]          }
         `
             }} />
