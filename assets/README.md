@@ -25,9 +25,9 @@ Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Reposito
 
 If you find these assets helpful and enjoy my work, consider supporting me:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/muhammadfiaz)
-[![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/muhammad_fiaz)
-<a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a>
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/sandeeppal)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/SandeepPal)
+<!-- <a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a> -->
 [![Sponsor pal-sandeep](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/pal-sandeep)
 
 ## License

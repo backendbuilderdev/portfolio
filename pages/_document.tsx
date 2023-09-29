@@ -32,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://muhammadfiaz.com" />
+            <link rel="canonical" href="https://portfolio-eight-rho-91.vercel.app" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://muhammadfiaz.com" />
+            <link rel="preconnect" href="https://portfolio-eight-rho-91.vercel.app" />
 
-            <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
+            <link rel="dns-prefetch" href="https://portfolio-eight-rho-91.vercel.app" />
 
             <meta name="author" content="Sandeep Pal" />
 
-            <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
+            <link rel="alternate" hrefLang="en" href="https://portfolio-eight-rho-91.vercel.app" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -67,13 +67,13 @@ export default function Document() {
 
             <meta property="og:title" content="Sandeep Pal" key="title" />
             <meta property="og:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
-            <meta property="og:image:secure_url" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
+            <meta property="og:image" content="https://portfolio-eight-rho-91.vercel.app/img/sandeeppal.jpeg" />
+            <meta property="og:image:secure_url" content="https://portfolio-eight-rho-91.vercel.app/img/sandeeppal.jpeg" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="Sandeep Pal" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://muhammadfiaz.com" />
+            <meta property="og:url" content="https://portfolio-eight-rho-91.vercel.app" />
             <meta property="og:type" content="website" />
             <meta property="og:profile" content="https://github.com/pal-sandeep" />
             <meta property="og:site_name" content="Sandeep Pal" />
@@ -81,12 +81,12 @@ export default function Document() {
 
 
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
+            <meta name="twitter:site" content="https://twitter.com/8sandeeppal" />
             <meta name="twitter:title" content="Sandeep Pal" />
             <meta name="twitter:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://muhammadfiaz.com/img/muhammadfiaz.jpeg" />
-            <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:domain" content="https://muhammadfiaz.com" />
+            <meta name="twitter:image" content="https://portfolio-eight-rho-91.vercel.app/img/sandeeppal.jpeg" />
+            <meta name="twitter:creator" content="https://twitter.com/8sandeeppal" />
+            <meta name="twitter:domain" content="https://portfolio-eight-rho-91.vercel.app" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -120,10 +120,10 @@ export default function Document() {
     Sandeep Pal Software Development Portfolio, Sandeep Pal Technology Projects,
     Sandeep Pal Computer Science, Sandeep Pal Cloud Computing, Sandeep Pal IT Professional,
     Sandeep Pal Technology Enthusiast, Sandeep Pal Computer Programmer, Sandeep Pal Code Portfolio,
-    Sandeep Pal Technology Student, Sandeep Pal Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
-    fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
-    fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
-    fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
+    Sandeep Pal Technology Student, Sandeep Pal Software Architect,pal,pal portfolio,pal devops,pal devops engineer,
+    pal devops portfolio,pal devops projects,pal devops specialist,pal devops professional,pal devops engineer portfolio,
+    pal devops engineer projects,pal devops engineer specialist,pal devops engineer professional,pal devops engineer coding,
+    pal devops engineer coding projects,pal devops engineer coding portfolio,pal devops engineer coding specialist,
     Open Source Contributor,open source,open source projects,open source portfolio,open source contributions,
     open source contributions portfolio,open source contributions projects,open source contributions coding,
     open source contributions coding projects,open source contributions coding portfolio,open source contributions coding specialist,
@@ -141,13 +141,13 @@ export default function Document() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Sandeep Pal",
-          "url": "https://muhammadfiaz.com",
+          "url": "https://portfolio-eight-rho-91.vercel.app",
           "sameAs": [
             "https://github.com/pal-sandeep",
             "https://www.linkedin.com/in/8sandeeppal",
             "https://medium.com/@pal-sandeep",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
+            "https://twitter.com/8sandeeppal",
+            "https://dev.to/pal-sandeep"
           ]
         }`
                 }}
@@ -216,27 +216,27 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://muhammadfiaz.com/"
+              "item": "https://portfolio-eight-rho-91.vercel.app/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://muhammadfiaz.com/docs"
+              "item": "https://portfolio-eight-rho-91.vercel.app/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://muhammadfiaz.com/articles"
+              "item": "https://portfolio-eight-rho-91.vercel.app/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://muhammadfiaz.com/projects"
+              "item": "https://portfolio-eight-rho-91.vercel.app/projects"
             },{
               "@type": "ListItem",
               "position": 5,
               "name": "Sign In",
-              "item": "https://muhammadfiaz.com/signin"
+              "item": "https://portfolio-eight-rho-91.vercel.app/signin"
             }]
           }
         `

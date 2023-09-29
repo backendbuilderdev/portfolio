@@ -1,8 +1,8 @@
 {
 	"Websites": [
 		{
-			"person": "muhammadfiaz.com",
-			"link": "https://muhammadfiaz.com/",
+			"person": "portfolio-eight-rho-91.vercel.app",
+			"link": "https://portfolio-eight-rho-91.vercel.app/",
 			"note": ""
 		}
 
@@ -11,22 +11,22 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "https://muhammadfiaz.com/",
+			"link": "https://portfolio-eight-rho-91.vercel.app/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "https://muhammadfiaz.com/docs",
+			"link": "https://portfolio-eight-rho-91.vercel.app/docs",
 			"note": ""
 		},	{
 			"person": "Articles",
-			"link": "https://muhammadfiaz.com/articles",
+			"link": "https://portfolio-eight-rho-91.vercel.app/articles",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
+			"link": "https://portfolio-eight-rho-91.vercel.app/projects",
 			"note": ""
 		},
 		{
@@ -44,7 +44,7 @@
 			"icon": "medium"
 		},
 		{
-			"url": "https://dev.to/muhammadfiaz",
+			"url": "https://dev.to/pal-sandeep",
 			"icon": "dev"
 		},
 		{
