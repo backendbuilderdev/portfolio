@@ -3,9 +3,9 @@ User-agent: *
 Allow: *
 
 # Host
-Host: https://portfolio-eight-rho-91.vercel.app
-Host: https://www.portfolio-eight-rho-91.vercel.app
+Host: https://heysandeep.in
+Host: https://www.heysandeep.in
 
 # Sitemaps
-Sitemap: https://portfolio-eight-rho-91.vercel.app/sitemap.xml
-Sitemap: https://portfolio-eight-rho-91.vercel.app/sitemap-0.xml
+Sitemap: https://heysandeep.in/sitemap.xml
+Sitemap: https://heysandeep.in/sitemap-0.xml

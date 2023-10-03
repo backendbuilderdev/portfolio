@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <h1><a href="https://portfolio-eight-rho-91.vercel.app/">portfolio-eight-rho-91.vercel.app</a> | portfolio</h1>
+  <h1><a href="https://heysandeep.in/">heysandeep.in</a> | portfolio</h1>
 
 ![Stability](https://img.shields.io/badge/stability-beta-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pal-sandeep/portfolio)
@@ -103,9 +103,6 @@ Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started
 Enjoying my work? Consider supporting me by buying me a cup of coffee or becoming a patron.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/sandeeppal)
-<!-- [![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/SandeepPal) -->
-<!-- <a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a> -->
-<!-- [![Sponsor pal-sandeep](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/pal-sandeep) -->
 
 
 ## License
