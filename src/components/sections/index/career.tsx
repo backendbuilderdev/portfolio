@@ -27,7 +27,7 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-						<h3>Semi Professional Full Stack Developer & UX Designer</h3>
+						<h3>Professional Full Stack Developer & Dev Ops</h3>
 									<h4>Permanent Full Time · Present</h4>
 							</span>
 							<p>

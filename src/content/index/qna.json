@@ -1,11 +1,5 @@
 [
   {
-    "question": "Where are you currently studying?",
-    "answer": "I am currently studying computer science at the Velammal College of Engineering and Technology.",
-    "isOpen": false
-
-  },
-  {
     "question": "Have you worked on any projects?",
     "answer": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks.",
     "isOpen": false

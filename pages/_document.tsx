@@ -17,7 +17,7 @@ export default function Document() {
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
     <title>Sandeep Pal</title>
-       <meta name="description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+       <meta name="description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
