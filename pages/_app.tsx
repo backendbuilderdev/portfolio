@@ -72,7 +72,7 @@ const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
                     <Layout>
 
                             <Component {...pageProps} />
-                        <DevelopmentNotice/>
+                        {/* <DevelopmentNotice/> */}
 
                         <Chatbot/>
                         <Analytics/>
