@@ -3,9 +3,9 @@ User-agent: *
 Allow: *
 
 # Host
-Host: https://heysandeep.in
-Host: https://www.heysandeep.in
+Host: https://sandeeppal.com
+Host: https://www.sandeeppal.com
 
 # Sitemaps
-Sitemap: https://heysandeep.in/sitemap.xml
-Sitemap: https://heysandeep.in/sitemap-0.xml
+Sitemap: https://sandeeppal.com/sitemap.xml
+Sitemap: https://sandeeppal.com/sitemap-0.xml
