@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <h1><a href="https://heysandeep.in/">heysandeep.in</a> | portfolio</h1>
+  <h1><a href="https://sandeeppal.com/">sandeeppal.com</a> | portfolio</h1>
 
 ![Stability](https://img.shields.io/badge/stability-beta-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pal-sandeep/portfolio)

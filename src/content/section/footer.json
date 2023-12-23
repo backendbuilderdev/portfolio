@@ -1,8 +1,8 @@
 {
 	"Websites": [
 		{
-			"person": "heysandeep.in",
-			"link": "https://heysandeep.in/",
+			"person": "sandeeppal.com",
+			"link": "https://sandeeppal.com/",
 			"note": ""
 		}
 
@@ -11,22 +11,22 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "https://heysandeep.in/",
+			"link": "https://sandeeppal.com/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "https://heysandeep.in/docs",
+			"link": "https://sandeeppal.com/docs",
 			"note": ""
 		},	{
 			"person": "Articles",
-			"link": "https://heysandeep.in/articles",
+			"link": "https://sandeeppal.com/articles",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "https://heysandeep.in/projects",
+			"link": "https://sandeeppal.com/projects",
 			"note": ""
 		},
 		{
