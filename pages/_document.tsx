@@ -32,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://heysandeep.in" />
+            <link rel="canonical" href="https://sandeeppal.com" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://heysandeep.in" />
+            <link rel="preconnect" href="https://sandeeppal.com" />
 
-            <link rel="dns-prefetch" href="https://heysandeep.in" />
+            <link rel="dns-prefetch" href="https://sandeeppal.com" />
 
             <meta name="author" content="Sandeep Pal" />
 
-            <link rel="alternate" hrefLang="en" href="https://heysandeep.in" />
+            <link rel="alternate" hrefLang="en" href="https://sandeeppal.com" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -67,13 +67,13 @@ export default function Document() {
 
             <meta property="og:title" content="Sandeep Pal" key="title" />
             <meta property="og:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://heysandeep.in/img/sandeeppal.jpeg" />
-            <meta property="og:image:secure_url" content="https://heysandeep.in/img/sandeeppal.jpeg" />
+            <meta property="og:image" content="https://sandeeppal.com/img/sandeeppal.jpeg" />
+            <meta property="og:image:secure_url" content="https://sandeeppal.com/img/sandeeppal.jpeg" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="Sandeep Pal" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://heysandeep.in" />
+            <meta property="og:url" content="https://sandeeppal.com" />
             <meta property="og:type" content="website" />
             <meta property="og:profile" content="https://github.com/pal-sandeep" />
             <meta property="og:site_name" content="Sandeep Pal" />
@@ -84,9 +84,9 @@ export default function Document() {
             <meta name="twitter:site" content="https://twitter.com/8sandeeppal" />
             <meta name="twitter:title" content="Sandeep Pal" />
             <meta name="twitter:description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://heysandeep.in/img/sandeeppal.jpeg" />
+            <meta name="twitter:image" content="https://sandeeppal.com/img/sandeeppal.jpeg" />
             <meta name="twitter:creator" content="https://twitter.com/8sandeeppal" />
-            <meta name="twitter:domain" content="https://heysandeep.in" />
+            <meta name="twitter:domain" content="https://sandeeppal.com" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -141,7 +141,7 @@ export default function Document() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Sandeep Pal",
-          "url": "https://heysandeep.in",
+          "url": "https://sandeeppal.com",
           "sameAs": [
             "https://github.com/pal-sandeep",
             "https://www.linkedin.com/in/8sandeeppal",
@@ -216,27 +216,27 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://heysandeep.in/"
+              "item": "https://sandeeppal.com/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://heysandeep.in/docs"
+              "item": "https://sandeeppal.com/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://heysandeep.in/articles"
+              "item": "https://sandeeppal.com/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://heysandeep.in/projects"
+              "item": "https://sandeeppal.com/projects"
             },{
               "@type": "ListItem",
               "position": 5,
               "name": "Sign In",
-              "item": "https://heysandeep.in/signin"
+              "item": "https://sandeeppal.com/signin"
             }]
           }
         `
