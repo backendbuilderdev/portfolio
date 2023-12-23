@@ -9,7 +9,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "550", "w": "330",  "url": "/img/img-mock.png" }
+			{ "key": "portfolio", "hover": "left", "h": "640", "w": "360",  "url": "/img/sandeeppal.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },

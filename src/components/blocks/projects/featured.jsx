@@ -33,6 +33,7 @@ export default function FeaturedProject({ content }, index) {
 			variants={container}
 			initial={[ "rest", "hidden" ]}
 			whileHover="hover"
+			style={{flexDirection: 'row-reverse'}}
 			animate={controls} >
 			
 			<div className={css.details}>
