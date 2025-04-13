@@ -1,0 +1,16 @@
+{
+	"name": "Sandeep Pal",
+	"logo": "",
+
+	"username": {
+		"github": "pal-sandeep",
+		"medium": "@pal-sandeep",
+		"dev": "pal-sandeep"
+	},
+
+	"portfolio": {
+		"fork_this": "This is an open-source project 🥰",
+		"repo_html": "https://github.com/pal-sandeep/portfolio.git",
+		"repo_api": "https://api.github.com/repos/pal-sandeep/portfolio"
+	}
+}

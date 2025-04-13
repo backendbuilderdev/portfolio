@@ -1,0 +1,29 @@
+[
+	{
+		"project": "sandeeppal.com",
+		"url": "https://github.com/pal-sandeep/portfolio",
+		"repo": "public",
+		"descriptionTitle": "An open source personal website",
+		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "640", "w": "360",  "url": "/img/sandeeppal.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "django", "name": "Django", "type": "devicon"}
+
+		]
+	}
+]
