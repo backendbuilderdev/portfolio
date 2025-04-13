@@ -109,3 +109,4 @@ dist
 # Sentry Auth Token
 .sentryclirc
 /backend/bin/
+node_modules

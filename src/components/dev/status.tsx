@@ -69,9 +69,9 @@ const DevelopmentNotice: React.FC = () => {
                 </p>
                 <p style={{ fontSize: '14px', marginBottom: '30px' }}>
                     If you encounter any issues or bugs, please report them{' '}
-                    <a href="https://github.com/muhammad-fiaz/portfolio/issues/new">@muhammad-fiaz</a>
+                    <a href="https://github.com/pal-sandeep/portfolio/issues/new">@pal-sandeep</a>
                 </p>
-                {!isVerified ? (
+                {/* {!isVerified ? (
                     <>
                         <HCaptcha
                             sitekey="d27bf471-6339-4603-b63f-5ab5fdd96ace"
@@ -81,7 +81,7 @@ const DevelopmentNotice: React.FC = () => {
                             Please complete the verification.
                         </p>
                     </>
-                ) : null}
+                ) : null} */}
                 <button
                     onClick={handleHidePopup}
                     disabled={!isVerified}

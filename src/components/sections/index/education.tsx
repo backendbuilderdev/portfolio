@@ -17,19 +17,19 @@ export default function Education() {
                 <SectionTitle
                     title="Education"
                     preTitle="Formal"
-                    subTitle="I am currently studying computer science at the Velammal college of engineering and technology."
+                    subTitle="I have successfully completed my Bachelors degree in Computer Science from Government Engineering College of Bikaner. This three-year program provided me with a comprehensive curriculum that covered various aspects of computer science and its applications."
                 />
                 <section className={career.area}>
 
                     <article className={career.company}>
                         <div className={career.companyContent}>
         <span className={career.companyHeader}>
-            <h3>Velammal College of Engineering and Technology</h3>
+            <h3>Government Engineering College, Bikaner</h3>
             <h4>Full-time</h4>
-            <h4>2021 - 2025 · 4 years</h4>
-            <h5>Madurai, Tamil Nadu</h5>
+            {/* <h4>20 - 2025 · 4 years</h4> */}
+            <h5>Bikaner, Rajasthan</h5>
         </span>
-                            <p>I am currently pursuing my Bachelors degree in Computer Science and Engineering at Velammal College of Engineering and Technology. This four-year program offers a comprehensive curriculum that covers various aspects of computer science and its applications.</p>
+                            <p>I have successfully completed my Bachelors degree in Computer Science from Government Engineering College of Bikaner. This three-year program provided me with a comprehensive curriculum that covered various aspects of computer science and its applications.</p>
 
                         </div>
                         <div className={career.companyAlt}></div>

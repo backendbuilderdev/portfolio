@@ -27,8 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*',  # '*' you can remove this if you are in production use
                  'http://localhost:3000',  # Replace with the URL of your React app or '*' for all domains
-                 'https://muhammadfiaz.com',
-                 'https://www.muhammadfiaz.com']
+                 'https://sandeeppal.com',
+                 'https://www.sandeeppal.com']
 
 # Application definition
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'portfolio.apps.MuhammadfiazConfig',
+    'portfolio.apps.SandeepPalConfig',
     'rest_framework',
     'corsheaders',  # Added for CORS support
 
@@ -80,8 +80,8 @@ TEMPLATES = [
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',  # Replace with the URL of your React app
-    'https://muhammadfiaz.com',
-    'https://www.muhammadfiaz.com',
+    'https://sandeeppal.com',
+    'https://www.sandeeppal.com',
     # Add the appropriate domain(s) for your frontend if you own a domain or when you deploy on production
 ]
 WSGI_APPLICATION = 'backend.wsgi.application'

@@ -1,19 +1,11 @@
 [
   {
-    "title": "muhammadfiaz.com",
-    "pubDate": "2023-07-05",
+    "title": "sandeeppal.com",
+    "pubDate": "2022-08-01",
     "link": "",
-    "author": "Muhammad Fiaz",
+    "author": "Sandeep Pal",
     "thumbnail": "/img/jobs.png",
     "categories": ["Portfolio", "Website", "Blog","personal"]
-  },
-  {
-    "title": "neurolink",
-    "pubDate": "2023-05-31",
-    "link": "",
-    "author": "Muhammad Fiaz",
-    "thumbnail": "/img/neurolink.png",
-    "categories": ["Machine Learning","Deep Learning","Artificial Intelligence","Neural Network"]
   }
 
 ]

@@ -3,9 +3,9 @@ User-agent: *
 Allow: *
 
 # Host
-Host: https://muhammadfiaz.com
-Host: https://www.muhammadfiaz.com
+Host: https://sandeeppal.com
+Host: https://www.sandeeppal.com
 
 # Sitemaps
-Sitemap: https://muhammadfiaz.com/sitemap.xml
-Sitemap: https://muhammadfiaz.com/sitemap-0.xml
+Sitemap: https://sandeeppal.com/sitemap.xml
+Sitemap: https://sandeeppal.com/sitemap-0.xml

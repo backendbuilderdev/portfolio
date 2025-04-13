@@ -24,7 +24,7 @@ export default function Home() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="/img/muhammadfiaz.jpeg" width={600} height={800} alt="Muhammad Fiaz"   loading="eager" />
+						<Image src="/img/sandeeppal.jpeg" width={600} height={800} alt="Sandeep Pal"   loading="eager" />
 					</div>
 					<div className={about.copy}>
 						<CopyBlock

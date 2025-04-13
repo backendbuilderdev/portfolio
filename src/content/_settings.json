@@ -1,16 +1,16 @@
 {
-	"name": "Muhammad Fiaz",
+	"name": "Sandeep Pal",
 	"logo": "",
 
 	"username": {
-		"github": "muhammad-fiaz",
-		"medium": "@muhammad-fiaz",
-		"dev": "muhammadfiaz"
+		"github": "pal-sandeep",
+		"medium": "@pal-sandeep",
+		"dev": "pal-sandeep"
 	},
 
 	"portfolio": {
 		"fork_this": "This is an open-source project 🥰",
-		"repo_html": "https://github.com/muhammad-fiaz/portfolio.git",
-		"repo_api": "https://api.github.com/repos/muhammad-fiaz/portfolio"
+		"repo_html": "https://github.com/pal-sandeep/portfolio.git",
+		"repo_api": "https://api.github.com/repos/pal-sandeep/portfolio"
 	}
 }
