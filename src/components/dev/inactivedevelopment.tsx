@@ -1,9 +1,11 @@
 import Section from '../structure/section';
 import Container from '../structure/container';
-import { Player } from "@lottiefiles/react-lottie-player";
+import dynamic from 'next/dynamic';
 
 import css from '../../../assets/styles/scss/sections/projects/featured.module.scss';
 import React from "react";
+
+const Player = dynamic(() => import('@lottiefiles/react-lottie-player').then(mod => ({ default: mod.Player })), { ssr: false });
 
 interface InactivedevelopmentProps {
 	spacing: string[];

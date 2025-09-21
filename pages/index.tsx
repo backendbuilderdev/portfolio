@@ -12,6 +12,7 @@ const Technical = dynamic(() => import('../src/components/sections/index/technic
 const Career = dynamic(() => import('../src/components/sections/index/career'));
 const FeaturedProjects = dynamic(() => import('../src/components/sections/projects/featured'));
 const QnA = dynamic(() => import('../src/components/sections/index/qna'));
+const Newsletter = dynamic(() => import('../src/components/sections/index/newsletter'));
 const Color = dynamic(() => import('../src/components/utils/page.colors'));
 
 interface HomePageProps {
@@ -46,6 +47,7 @@ export default function HomePage({spacing}: HomePageProps) {
 					<FeaturedProjects />
 					<Technical />
 					<Career />
+					<Newsletter />
 					<QnA />
 				</>
 			{/*	) : (

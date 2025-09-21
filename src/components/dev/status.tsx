@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Player} from '@lottiefiles/react-lottie-player';
+import dynamic from 'next/dynamic';
+
+const Player = dynamic(() => import('@lottiefiles/react-lottie-player').then(mod => ({ default: mod.Player })), { ssr: false });
 import HCaptcha from '@hcaptcha/react-hcaptcha';
 
 

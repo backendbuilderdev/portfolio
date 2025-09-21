@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 
-import { Player } from "@lottiefiles/react-lottie-player";
+const Player = dynamic(() => import('@lottiefiles/react-lottie-player').then(mod => ({ default: mod.Player })), { ssr: false });
 
 export default function LoadingAnim() {
     // Use a state variable to track whether components are loaded

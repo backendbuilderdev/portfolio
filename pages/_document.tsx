@@ -15,8 +15,6 @@ export default function Document() {
                   */}
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-    <title>Sandeep Pal</title>
        <meta name="description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, and Design. Join my journey." />
 
     {/*These are need for PWA*/}
@@ -283,6 +281,9 @@ export default function Document() {
         `,
         }}
     />
+
+    {/* Newsletter Script */}
+    <Script async data-uid="a881ca9970" src="https://backendbuilder.kit.com/a881ca9970/index.js" />
 </Head>
 
 			<body>
