@@ -11,7 +11,7 @@ The pages within this folder define the content and functionality of your portfo
 
 Feel free to customize, extend, or create new pages to tailor your portfolio to your specific needs. You can also integrate components and assets from other folders within your project to build rich and engaging web pages.
 
-Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/pal-sandeep/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/backendbuilderdev/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/backendbuilderdev/portfolio/stargazers).
 
 ## Support Me
 

@@ -53,11 +53,11 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:skumar8work@gmail.com' } >
+							onClick={ () => window.location = 'mailto:hello@sandeeppal.com' } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://www.linkedin.com/in/8sandeeppal/", "_blank") } >
+							onClick={ ()=> window.open("https://www.linkedin.com/in/backendbuilder/", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
 				</section>

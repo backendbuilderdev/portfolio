@@ -7,7 +7,7 @@ export default function Title500() {
 
             {/*
 				Author: Sandeep Pal
-                 GitHub: Visit the GitHub repository at https://github.com/pal-sandeep/portfolio/ for more details.
+                 GitHub: Visit the GitHub repository at https://github.com/backendbuilderdev/portfolio/ for more details.
                  license: MIT License
                   */}
             <meta charSet="utf-8" />

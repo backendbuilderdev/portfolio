@@ -7,17 +7,17 @@ Enjoying my work? Consider supporting me by buying me a cup of coffee or becomin
 [![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/SandeepPal)
 
 
-Thank you for checking out [my portfolio on GitHub](https://github.com/pal-sandeep/portfolio)! We're constantly working to improve and enhance the project. To ensure you're always up-to-date with the latest changes, we recommend following these steps:
+Thank you for checking out [my portfolio on GitHub](https://github.com/backendbuilderdev/portfolio)! We're constantly working to improve and enhance the project. To ensure you're always up-to-date with the latest changes, we recommend following these steps:
 
 1. **Watch This Repository:** Click the ⭐️ "Watch" button at the top right of the page to [receive notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/watching-and-unwatching-repositories) for any new releases, issues, or discussions.
 
-2. **Star the Repository:** If you find my portfolio useful or interesting, consider giving it a [star](https://github.com/pal-sandeep/portfolio/stargazers). This helps us gain visibility and shows your appreciation for the project.
+2. **Star the Repository:** If you find my portfolio useful or interesting, consider giving it a [star](https://github.com/backendbuilderdev/portfolio/stargazers). This helps us gain visibility and shows your appreciation for the project.
 
-3. **Fork for Contributions:** If you're interested in contributing to my portfolio, feel free to [fork](https://github.com/pal-sandeep/portfolio/fork) the repository, make changes, and submit a pull request. We welcome contributions from the community!
+3. **Fork for Contributions:** If you're interested in contributing to my portfolio, feel free to [fork](https://github.com/backendbuilderdev/portfolio/fork) the repository, make changes, and submit a pull request. We welcome contributions from the community!
 
-4. **Join the Discussion:** Check out the [Discussions](https://github.com/pal-sandeep/portfolio/discussions) tab to join conversations, ask questions, and share your ideas with other users and contributors.
+4. **Join the Discussion:** Check out the [Discussions](https://github.com/backendbuilderdev/portfolio/discussions) tab to join conversations, ask questions, and share your ideas with other users and contributors.
 
-5. **Stay Updated:** Periodically visit the repository's ["Releases" section](https://github.com/pal-sandeep/portfolio/releases) to find detailed information about each new release, including new features, bug fixes, and improvements.
+5. **Stay Updated:** Periodically visit the repository's ["Releases" section](https://github.com/backendbuilderdev/portfolio/releases) to find detailed information about each new release, including new features, bug fixes, and improvements.
 
 By following these steps, you'll be sure to stay connected with the latest developments and updates. I appreciate your interest in my portfolio and can't wait to see how it benefits you!
 

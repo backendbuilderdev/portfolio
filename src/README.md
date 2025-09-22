@@ -13,7 +13,7 @@ The "src" folder is the heart of Next.js project, where we can organize and mana
 
 Feel free to customize, extend, or create new components and content files to tailor your portfolio to your specific needs. This structure promotes organization and separation of concerns, making your project more maintainable and scalable.
 
-Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/pal-sandeep/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/backendbuilderdev/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/backendbuilderdev/portfolio/stargazers).
 
 ## Support Me
 

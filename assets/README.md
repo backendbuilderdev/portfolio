@@ -19,7 +19,7 @@ The assets within this folder are integral to your portfolio website's design an
 
 Feel free to import and apply these assets as needed throughout your website. They serve as the foundation for achieving a visually appealing and well-structured portfolio without the need for extensive custom coding.
 
-Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/pal-sandeep/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/backendbuilderdev/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/backendbuilderdev/portfolio/stargazers).
 
 ## Support Me
 
@@ -31,4 +31,4 @@ If you find these assets helpful and enjoy my work, consider supporting me:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/pal-sandeep/portfolio/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/backendbuilderdev/portfolio/blob/main/LICENSE.md) file for details.

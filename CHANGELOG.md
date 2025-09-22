@@ -5,30 +5,30 @@
 - improved ui and performance #178
 - fixed bugs
 - added new features and removed or make some as optional
-- Full Release notes: [https://github.com/pal-sandeep/portfolio/releases](https://github.com/pal-sandeep/portfolio/releases)
-- Full Changelog: [https://github.com/pal-sandeep/portfolio/commits/main](https://github.com/pal-sandeep/portfolio/commits/main)
+- Full Release notes: [https://github.com/backendbuilderdev/portfolio/releases](https://github.com/backendbuilderdev/portfolio/releases)
+- Full Changelog: [https://github.com/backendbuilderdev/portfolio/commits/main](https://github.com/backendbuilderdev/portfolio/commits/main)
 
 ## v1.0.3
 - Added Custom 500 and 404 Error Pages👻
 - improved UI and Functionality❤️
 - fixed some bugs✌🏻
-- Full Release notes: [https://github.com/pal-sandeep/portfolio/releases](https://github.com/pal-sandeep/portfolio/releases)
-- Full Changelog: [https://github.com/pal-sandeep/portfolio/commits/main](https://github.com/pal-sandeep/portfolio/commits/main)
+- Full Release notes: [https://github.com/backendbuilderdev/portfolio/releases](https://github.com/backendbuilderdev/portfolio/releases)
+- Full Changelog: [https://github.com/backendbuilderdev/portfolio/commits/main](https://github.com/backendbuilderdev/portfolio/commits/main)
 
 ## v1.0.2
 - Upgraded to Next.js 13
 - Added PostCSS Support
 - Some UI Improvements and Changes
-- Full Release notes: [https://github.com/pal-sandeep/portfolio/releases](https://github.com/pal-sandeep/portfolio/releases)
-- Full Changelog: [https://github.com/pal-sandeep/portfolio/commits/main](https://github.com/pal-sandeep/portfolio/commits/main)
+- Full Release notes: [https://github.com/backendbuilderdev/portfolio/releases](https://github.com/backendbuilderdev/portfolio/releases)
+- Full Changelog: [https://github.com/backendbuilderdev/portfolio/commits/main](https://github.com/backendbuilderdev/portfolio/commits/main)
 
 ## v1.0.1
 
 - Added Webpack Support
 - Some Improvements and Changes
-- Merged updates by @pal-sandeep in [#106](https://github.com/pal-sandeep/portfolio/pull/106)
-- Full Release notes: [https://github.com/pal-sandeep/portfolio/releases](https://github.com/pal-sandeep/portfolio/releases)
-- Full Changelog: [https://github.com/pal-sandeep/portfolio/commits/main](https://github.com/pal-sandeep/portfolio/commits/main)
+- Merged updates by @pal-sandeep in [#106](https://github.com/backendbuilderdev/portfolio/pull/106)
+- Full Release notes: [https://github.com/backendbuilderdev/portfolio/releases](https://github.com/backendbuilderdev/portfolio/releases)
+- Full Changelog: [https://github.com/backendbuilderdev/portfolio/commits/main](https://github.com/backendbuilderdev/portfolio/commits/main)
 
 ## v1.0.0
 
@@ -43,6 +43,6 @@ I am thrilled to unveil Portfolio 1.0.0 – a major leap forward in my project's
 - ⚡ **Performance at its Best:** I fine-tuned every aspect to guarantee swift loading times and seamless interactions, regardless of the scale of my portfolio.
 - 🐞 **Bug Buster:** Numerous bugs and glitches have been diligently squashed, fostering a stable and dependable user experience.
 - 
-👻 For more information about this release, please check out the repository [pal-sandeep](https://github.com/pal-sandeep/portfolio).
+👻 For more information about this release, please check out the repository [pal-sandeep](https://github.com/backendbuilderdev/portfolio).
 
 

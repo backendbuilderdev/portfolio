@@ -20,12 +20,12 @@
 	"buttons": {
 		"primary": {
 			"title": "Hire Me",
-			"url": "mailto:skumar8work@gmail.com",
+			"url": "mailto:hello@sandeeppal.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/8sandeeppal/",
+			"url": "https://www.linkedin.com/in/backendbuilder/",
 			"leaveSite": "true"
 		}
 	}

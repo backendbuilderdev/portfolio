@@ -17,7 +17,7 @@ For example, if you have an image named "my-image.jpg" in the "public/images" di
 
 Feel free to customize, extend to tailor your portfolio to your specific needs. 
 
-Make Sure to [Fork](https://github.com/pal-sandeep/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/pal-sandeep/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/backendbuilderdev/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/backendbuilderdev/portfolio/stargazers).
 
 ## Support Me
 
