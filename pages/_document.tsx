@@ -22,8 +22,6 @@ export default function Document() {
 				<Script id="theme-init" strategy="beforeInteractive">
 					{`document.documentElement.dataset.theme = 'dark';`}
 				</Script>
-				<script async data-uid="a881ca9970" src="https://backendbuilder.kit.com/a881ca9970/index.js"></script>
-				{/* <Script async data-uid="a881ca9970" src="https://backendbuilder.kit.com/a881ca9970/index.js" /> */}
 			</Head>
 			<body>
 				<Main />

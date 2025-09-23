@@ -12,9 +12,6 @@ export default function TitleIndex() {
             <meta name="application-name" content="Sandeep Pal" />
             <meta name="description" content="Sandeep Pal - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, and Design. Join my journey." />
             <meta name="title" content="Sandeep Pal"/>
-
-          
-
         </Head>
     );
 }
