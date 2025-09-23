@@ -25,7 +25,7 @@ import "../assets/styles/css/sections/404.css";
 import "../assets/styles/css/utils/anim.css";
 const DevelopmentNotice = dynamic(() => import( "../src/components/dev/status"));
 const BackToTop = dynamic(() => import("../src/components/utils/backtotop"));
-const Chatbot = dynamic(() => import("../src/components/sections/index/chatbot"));
+// const Chatbot = dynamic(() => import("../src/components/sections/index/chatbot"));
 
 
 // NProgress configuration
@@ -58,7 +58,7 @@ const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 4000);
+        }, 2500);
 
         return () => clearTimeout(timer);
     }, []);
@@ -70,11 +70,9 @@ const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
             ) : (
                 <LazyMotion features={domAnimation}>
                     <Layout>
-
-                            <Component {...pageProps} />
+                        <Component {...pageProps} />
                         {/* <DevelopmentNotice/> */}
-
-                        <Chatbot/>
+                        {/* <Chatbot/> */}
                         <Analytics/>
                         <SetGridGap/>
                     </Layout>
