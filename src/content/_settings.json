@@ -3,14 +3,14 @@
 	"logo": "",
 
 	"username": {
-		"github": "pal-sandeep",
-		"medium": "@pal-sandeep",
+		"github": "backendbuilderdev",
+		"medium": "@backendbuilder",
 		"dev": "pal-sandeep"
 	},
 
 	"portfolio": {
 		"fork_this": "This is an open-source project 🥰",
 		"repo_html": "https://github.com/backendbuilderdev/portfolio.git",
-		"repo_api": "https://api.github.com/repos/pal-sandeep/portfolio"
+		"repo_api": "https://api.github.com/repos/backendbuilderdev/portfolio"
 	}
 }

@@ -39,5 +39,13 @@ export async function getServerSideProps({ res }) {
 		mediumRSS.json(),
 	] )
 
+	// Set default thumbnail for articles without one
+	if (mediumArticles.items) {
+		mediumArticles.items = mediumArticles.items.map(article => ({
+			...article,
+			thumbnail: article.thumbnail || '/img/logo_rounded.png'
+		}));
+	}
+
 	return { props: { mediumArticles } }
 }
