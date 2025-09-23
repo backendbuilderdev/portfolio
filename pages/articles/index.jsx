@@ -22,30 +22,43 @@ export default function Articles({ mediumArticles }) {
 
 
 export async function getServerSideProps({ res }) {
-	{/*This gets called on every request*/}
-
 	res.setHeader(
 		'Cache-Control',
 		'public, s-maxage=600, stale-while-revalidate=59'
 	)
 
-	console.log(settings.username.medium)
+	try {
+		// Remove @ symbol if present in username
+		const username = settings.username.medium.replace('@', '');
+		const rssUrl = `https://medium.com/feed/@${username}`;
+		
+		const mediumRSS = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`);
+		const mediumArticles = await mediumRSS.json();
 
-	const [ mediumRSS ] = await Promise.all( [
-		fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`),
-	] )
-	
-	let [ mediumArticles ] = await Promise.all( [
-		mediumRSS.json(),
-	] )
+		// Check if RSS fetch was successful
+		if (mediumArticles.status === 'error') {
+			return {
+				props: {
+					mediumArticles: { items: [] }
+				}
+			};
+		}
 
-	// Set default thumbnail for articles without one
-	if (mediumArticles.items) {
-		mediumArticles.items = mediumArticles.items.map(article => ({
-			...article,
-			thumbnail: article.thumbnail || '/img/logo_rounded.png'
-		}));
+		// Set default thumbnail for articles without one
+		if (mediumArticles.items) {
+			mediumArticles.items = mediumArticles.items.map(article => ({
+				...article,
+				thumbnail: article.thumbnail || '/img/logo_rounded.png'
+			}));
+		}
+
+		return { props: { mediumArticles } };
+	} catch (error) {
+		console.error('Error fetching Medium articles:', error);
+		return {
+			props: {
+				mediumArticles: { items: [] }
+			}
+		};
 	}
-
-	return { props: { mediumArticles } }
 }

@@ -6,6 +6,9 @@ const nextConfig = {
   experimental: {
     // Remove esmExternals if you don't need it
     esmExternals: false
+  },
+  images: {
+    domains: ['avatars.githubusercontent.com']
   }
 }
 
