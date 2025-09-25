@@ -1,5 +1,8 @@
 import { Head, Html, Main, NextScript } from 'next/document'
 import Script from 'next/script'
+import dynamic from 'next/dynamic';
+
+const KitModal = dynamic(() => import('../src/components/sections/newsletter/newsletter'));
 
 export default function Document() {
 	return (
@@ -25,6 +28,7 @@ export default function Document() {
 			</Head>
 			<body>
 				<Main />
+				<KitModal />
 				<NextScript />
 			</body>
 		</Html>

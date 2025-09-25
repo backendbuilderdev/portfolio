@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Section from '../../structure/section';
 import Container from '../../structure/container';
+
+const copyToClipboard = (text: string) => {
+  navigator.clipboard.writeText(text);
+};
 
 export default function CheatsheetContent() {
   return (
@@ -13,170 +17,136 @@ export default function CheatsheetContent() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
             {/* Introduction */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4', borderBottom: '1px solid #333', paddingBottom: '0.5rem' }}>Introduction</h2>
-              <div style={{ backgroundColor: '#1a1a1a', padding: '1rem', borderRadius: '4px', border: '1px solid #333' }}>
-                <p style={{ margin: 0, fontSize: '0.9rem', lineHeight: '1.5', color: '#ccc' }}>Git is a distributed version control system. This reference was made for Git 2.0.</p>
-                <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', color: '#ccc' }}>For shortcut notation, see <code style={{ backgroundColor: '#333', padding: '0.2rem 0.4rem', borderRadius: '3px', color: '#fff' }}>:help key-notation</code>.</p>
+            <div style={{ marginBottom: '2rem', position: 'relative' }}>
+              <div style={{ position: 'relative', backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '8px' }}>
+                <div style={{ position: 'absolute', top: '8px', right: '8px', fontSize: '0.75rem', color: '#666', fontFamily: 'monospace' }}>README.md</div>
+                <div style={{ padding: '2rem 1rem 1rem 1rem' }}>
+                  <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4' }}>Introduction</h2>
+                  <p style={{ margin: 0, fontSize: '0.9rem', lineHeight: '1.5', color: '#ccc' }}>Git is a distributed version control system. This reference was made for Git 2.0.</p>
+                  <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', color: '#ccc' }}>For shortcut notation, see <code style={{ backgroundColor: '#333', padding: '0.2rem 0.4rem', borderRadius: '3px', color: '#fff' }}>:help key-notation</code>.</p>
+                </div>
               </div>
             </div>
 
             {/* Basic Commands */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4', borderBottom: '1px solid #333', paddingBottom: '0.5rem' }}>Basic Commands</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#1a1a1a', border: '1px solid #333' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', width: '40%', fontSize: '0.9rem', color: '#fff' }}>git init</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Initialize repository</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git clone &lt;url&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Clone repository</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git add .</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Stage all changes</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git commit -m "message"</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Commit changes</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git push</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Push to remote</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git pull</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Pull from remote</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div style={{ marginBottom: '2rem', position: 'relative' }}>
+              <div style={{ position: 'relative', backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '8px' }}>
+                <div style={{ position: 'absolute', top: '8px', right: '8px', fontSize: '0.75rem', color: '#666', fontFamily: 'monospace' }}>basic.sh</div>
+                <div style={{ padding: '2rem 1rem 1rem 1rem' }}>
+                  <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4' }}>Basic Commands</h2>
+                  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                    <tbody>
+                      <tr style={{ borderBottom: '1px solid #333' }}>
+                        <td 
+                          style={{ 
+                            padding: '0.75rem', 
+                            fontFamily: 'monospace', 
+                            backgroundColor: '#2a2a2a', 
+                            width: '40%', 
+                            fontSize: '0.9rem', 
+                            color: '#fff',
+                            cursor: 'pointer',
+                            position: 'relative'
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = '#3a3a3a';
+                            const copyBtn = e.currentTarget.querySelector('.copy-btn') as HTMLElement;
+                            if (copyBtn) copyBtn.style.opacity = '1';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = '#2a2a2a';
+                            const copyBtn = e.currentTarget.querySelector('.copy-btn') as HTMLElement;
+                            if (copyBtn) copyBtn.style.opacity = '0';
+                          }}
+                          onClick={() => copyToClipboard('git init')}
+                        >
+                          git init
+                          <span 
+                            className="copy-btn"
+                            style={{
+                              position: 'absolute',
+                              right: '8px',
+                              top: '50%',
+                              transform: 'translateY(-50%)',
+                              opacity: '0',
+                              fontSize: '0.7rem',
+                              color: '#4ecdc4',
+                              transition: 'opacity 0.2s'
+                            }}
+                          >
+                            📋
+                          </span>
+                        </td>
+                        <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Initialize repository</td>
+                      </tr>
+                      <tr style={{ borderBottom: '1px solid #333' }}>
+                        <td 
+                          style={{ 
+                            padding: '0.75rem', 
+                            fontFamily: 'monospace', 
+                            backgroundColor: '#2a2a2a', 
+                            fontSize: '0.9rem', 
+                            color: '#fff',
+                            cursor: 'pointer',
+                            position: 'relative'
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = '#3a3a3a';
+                            const copyBtn = e.currentTarget.querySelector('.copy-btn') as HTMLElement;
+                            if (copyBtn) copyBtn.style.opacity = '1';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = '#2a2a2a';
+                            const copyBtn = e.currentTarget.querySelector('.copy-btn') as HTMLElement;
+                            if (copyBtn) copyBtn.style.opacity = '0';
+                          }}
+                          onClick={() => copyToClipboard('git clone <url>')}
+                        >
+                          git clone &lt;url&gt;
+                          <span 
+                            className="copy-btn"
+                            style={{
+                              position: 'absolute',
+                              right: '8px',
+                              top: '50%',
+                              transform: 'translateY(-50%)',
+                              opacity: '0',
+                              fontSize: '0.7rem',
+                              color: '#4ecdc4',
+                              transition: 'opacity 0.2s'
+                            }}
+                          >
+                            📋
+                          </span>
+                        </td>
+                        <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Clone repository</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
             {/* Branching */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4', borderBottom: '1px solid #333', paddingBottom: '0.5rem' }}>Branching</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#1a1a1a', border: '1px solid #333' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #333' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', width: '40%', fontSize: '0.9rem', color: '#fff' }}>git branch</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>List branches</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git checkout &lt;branch&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Switch branch</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git checkout -b &lt;name&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Create and switch branch</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git merge &lt;branch&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Merge branch</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Remote Operations */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#333', borderBottom: '1px solid #e0e0e0', paddingBottom: '0.5rem' }}>Remote Operations</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', border: '1px solid #e9ecef' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', width: '30%', fontSize: '0.9rem' }}>git remote -v</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>List remotes</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git fetch</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Fetch changes</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git push origin main</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Push to main branch</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git pull origin main</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Pull from main branch</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Undoing Changes */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#333', borderBottom: '1px solid #e0e0e0', paddingBottom: '0.5rem' }}>Undoing Changes</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', border: '1px solid #e9ecef' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', width: '30%', fontSize: '0.9rem' }}>git reset HEAD~1</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Undo last commit (keep changes)</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git reset --hard HEAD~1</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Undo last commit (discard changes)</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git revert &lt;commit&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Create new commit that undoes changes</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git checkout -- &lt;file&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Discard changes in file</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Stashing */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#333', borderBottom: '1px solid #e0e0e0', paddingBottom: '0.5rem' }}>Stashing</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', border: '1px solid #e9ecef' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', width: '30%', fontSize: '0.9rem' }}>git stash</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Stash current changes</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git stash pop</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Apply and remove stash</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git stash list</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>List all stashes</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git stash drop</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Delete stash</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Viewing History */}
-            <div style={{ marginBottom: '2rem' }}>
-              <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#333', borderBottom: '1px solid #e0e0e0', paddingBottom: '0.5rem' }}>Viewing History</h2>
-              <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', border: '1px solid #e9ecef' }}>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', width: '30%', fontSize: '0.9rem' }}>git log</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Show commit history</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git log --oneline</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Show compact history</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid #e9ecef' }}>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git show &lt;commit&gt;</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Show commit details</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#f8f9fa', fontSize: '0.9rem' }}>git diff</td>
-                    <td style={{ padding: '0.75rem', fontSize: '0.9rem' }}>Show unstaged changes</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div style={{ marginBottom: '2rem', position: 'relative' }}>
+              <div style={{ position: 'relative', backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '8px' }}>
+                <div style={{ position: 'absolute', top: '8px', right: '8px', fontSize: '0.75rem', color: '#666', fontFamily: 'monospace' }}>branches.sh</div>
+                <div style={{ padding: '2rem 1rem 1rem 1rem' }}>
+                  <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#4ecdc4' }}>Branching</h2>
+                  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                    <tbody>
+                      <tr style={{ borderBottom: '1px solid #333' }}>
+                        <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', width: '40%', fontSize: '0.9rem', color: '#fff' }}>git branch</td>
+                        <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>List branches</td>
+                      </tr>
+                      <tr style={{ borderBottom: '1px solid #333' }}>
+                        <td style={{ padding: '0.75rem', fontFamily: 'monospace', backgroundColor: '#2a2a2a', fontSize: '0.9rem', color: '#fff' }}>git checkout &lt;branch&gt;</td>
+                        <td style={{ padding: '0.75rem', fontSize: '0.9rem', color: '#ccc' }}>Switch branch</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
           </div>
